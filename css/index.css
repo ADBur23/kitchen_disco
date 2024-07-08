@@ -1,0 +1,65 @@
+/* Backgrounds */
+
+body {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+section#hero {
+    background-color: #FF914D;
+}
+
+section#about {
+    background-color: #000000;
+}
+
+section#three {
+    background-color: #FFF3EF;
+}
+
+section#four {
+    background-color: #FF914D;
+}
+
+section#five {
+    background-color: #FFF3EF;    
+}
+
+section#six {
+    background-color: #FF914D;    
+}
+
+/* Colours */
+
+.btn-about {
+    background-color: #CA44F2;
+    color: #FFF3EF;
+}
+
+.btn-services {
+    border-color: #CA44F2;
+}
+
+svg {
+    color: #000000;
+}
+
+.about-text {
+    color: #FF914D;
+}
+
+/* Sizings */
+/* .kitchenDiscoTitle {
+    height: 100%;
+    width: 100%;
+} */
+
+/* .container.col-xxl-8{
+    margin-left: 0.313rem;
+} */
+
+@media (min-width: 992px) {
+    .container.px-4 {
+        max-width: 1200px;
+    }
+}
