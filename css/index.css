@@ -40,6 +40,37 @@ section#six {
     border-color: #CA44F2;
 }
 
+.btn-show-off {
+    background-color: #59e244;
+}
+
+.offer-text {
+    border: solid;
+    border-color: #000000;
+    border-radius: 35%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.show-off-text {
+    border: solid;
+    border-color: #000000;
+    border-radius: 35%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.show-off-button {
+    z-index: 2;
+    position: absolute;
+    left: 3.75rem;
+    top: 9.375rem;
+}
+
+.show-off-position {
+    position: relative;
+}
+
 svg {
     color: #000000;
 }
@@ -58,8 +89,53 @@ svg {
     margin-left: 0.313rem;
 } */
 
+
+.offer-img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.offer-first-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.offer-second-text {
+    margin-top: 2rem;
+    margin-bottom: 1rem; 
+}
+
+.offer-last-text {
+    margin-top: 4rem;
+    margin-bottom: 1rem; 
+}
+
+.show-off {
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+
+/* Media Queries */
+
 @media (min-width: 992px) {
     .container.px-4 {
         max-width: 1200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .show-off-button {
+        left: 4.5rem;
+        top: 11.75rem;
+    }
+    .container.text-center {
+        max-width: 880px;
+    }
+}
+
+@media (min-width: 896px) {
+    .show-off-button {
+        left: 4.75rem;
+        top: 11.75rem;
     }
 }
